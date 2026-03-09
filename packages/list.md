@@ -1,7 +1,7 @@
 # 📦 Essential NPM Packages Reference
 
 > A curated list of must-know npm packages for modern web development.  
-> Last updated: March 2026 · Maintained by: [@yourname](https://github.com/yourname)
+> Last updated: March 2026 · Maintained by: [@Saidul](https://github.com/shaiadul)
 
 ---
 
