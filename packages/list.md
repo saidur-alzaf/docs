@@ -158,7 +158,7 @@
 
 ## 📄 License
 
-MIT © [Md Saidul](https://github.com/mdshaiadul)
+MIT © [Md Saidul](https://github.com/shaiadul)
 
 ---
 
