@@ -322,4 +322,3 @@ export const metadata: Metadata = {
 | [Rich Results Test](https://search.google.com/test/rich-results) | JSON-LD ঠিক আছে কিনা |
 | [OG Image Preview](https://www.opengraph.xyz/) | Social share preview দেখুন |
 
----
