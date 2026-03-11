@@ -17,6 +17,7 @@
 - [📊 State Management](#-state-management)
 - [📁 File Handling](#-file-handling)
 - [⚡ Performance](#-performance)
+- [ⓦ Website](#-website)
 
 ---
 
@@ -142,6 +143,19 @@
 | [compression](https://github.com/expressjs/compression) | ![npm](https://img.shields.io/npm/v/compression) | Gzip compression middleware | `npm i compression` |
 | [lru-cache](https://github.com/isaacs/node-lru-cache) | ![npm](https://img.shields.io/npm/v/lru-cache) | Least-recently-used cache | `npm i lru-cache` |
 | [p-limit](https://github.com/sindresorhus/p-limit) | ![npm](https://img.shields.io/npm/v/p-limit) | Limit concurrent promises | `npm i p-limit` |
+
+---
+
+## 🔐 Website
+
+| Package | Version | Description | Install |
+|--------|---------|-------------|---------|
+| [next-auth](https://next-auth.js.org/) | ![npm](https://img.shields.io/npm/v/next-auth) | Full auth solution for Next.js | `npm i next-auth` |
+| [bcryptjs](https://github.com/dcodeIO/bcrypt.js) | ![npm](https://img.shields.io/npm/v/bcryptjs) | Password hashing | `npm i bcryptjs` |
+| [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) | ![npm](https://img.shields.io/npm/v/jsonwebtoken) | JWT sign & verify | `npm i jsonwebtoken` |
+| [helmet](https://helmetjs.github.io/) | ![npm](https://img.shields.io/npm/v/helmet) | Security headers for Express | `npm i helmet` |
+| [@upstash/ratelimit](https://github.com/upstash/ratelimit) | ![npm](https://img.shields.io/npm/v/@upstash/ratelimit) | Edge-compatible rate limiting | `npm i @upstash/ratelimit` |
+| [csrf](https://github.com/expressjs/csurf) | ![npm](https://img.shields.io/npm/v/csrf) | CSRF protection | `npm i csrf` |
 
 ---
 
