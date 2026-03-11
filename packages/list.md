@@ -146,16 +146,11 @@
 
 ---
 
-## 🔐 Website
+## ⭕ Website
 
-| Package | Version | Description | Install |
-|--------|---------|-------------|---------|
-| [next-auth](https://next-auth.js.org/) | ![npm](https://img.shields.io/npm/v/next-auth) | Full auth solution for Next.js | `npm i next-auth` |
-| [bcryptjs](https://github.com/dcodeIO/bcrypt.js) | ![npm](https://img.shields.io/npm/v/bcryptjs) | Password hashing | `npm i bcryptjs` |
-| [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) | ![npm](https://img.shields.io/npm/v/jsonwebtoken) | JWT sign & verify | `npm i jsonwebtoken` |
-| [helmet](https://helmetjs.github.io/) | ![npm](https://img.shields.io/npm/v/helmet) | Security headers for Express | `npm i helmet` |
-| [@upstash/ratelimit](https://github.com/upstash/ratelimit) | ![npm](https://img.shields.io/npm/v/@upstash/ratelimit) | Edge-compatible rate limiting | `npm i @upstash/ratelimit` |
-| [csrf](https://github.com/expressjs/csurf) | ![npm](https://img.shields.io/npm/v/csrf) | CSRF protection | `npm i csrf` |
+| Website | Description |
+|--------|---------|
+| [theinfinity](https://www.theinfinity.dev/tools) | Discover the best open source alternatives and tools. Browse through our curated collection with GitHub stars, categories, and detailed information. | 
 
 ---
 
