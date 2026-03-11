@@ -41,6 +41,7 @@
 | [recharts](https://recharts.github.io/) | ![npm](https://img.shields.io/npm/v/recharts) | Recharts is a Redefined chart library built with React and D3. | `npm i recharts` |
 | [Next.js 13 Progressbar](https://www.npmjs.com/package/next13-progressbar) | ![npm](https://img.shields.io/npm/v/next13-progressbar) | A simple Next.js progressbar component using NProgress with support of next.js 13 and later app dir. | `npm i next13-progressbar` |
 | [tailwindcss](https://tailwindcss.com/) | ![npm](https://img.shields.io/npm/v/tailwindcss) | Utility-first CSS framework | `npm i tailwindcss` |
+| [goey-toast](https://goey-toast.vercel.app/) | ![npm](https://img.shields.io/npm/v/goey-toast)  | Morphing toast notifications for React. | `npm i goey-toast` |
 | [shadcn/ui](https://ui.shadcn.com/) | — | Accessible component library | `npx shadcn-ui@latest init` |
 | [framer-motion](https://www.framer.com/motion/) | ![npm](https://img.shields.io/npm/v/framer-motion) | Animation library for React | `npm i framer-motion` |
 | [lucide-react](https://lucide.dev/) | ![npm](https://img.shields.io/npm/v/lucide-react) | Beautiful icon set | `npm i lucide-react` |
