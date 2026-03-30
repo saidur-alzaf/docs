@@ -111,6 +111,7 @@
 | [dayjs](https://day.js.org/) | ![npm](https://img.shields.io/npm/v/dayjs) | Lightweight date library | `npm i dayjs` |
 | [lodash](https://lodash.com/) | ![npm](https://img.shields.io/npm/v/lodash) | Utility function library | `npm i lodash` |
 | [nanoid](https://github.com/ai/nanoid) | ![npm](https://img.shields.io/npm/v/nanoid) | Tiny unique ID generator | `npm i nanoid` |
+| [resend](https://resend.com/docs/introduction) | ![npm](https://img.shields.io/npm/v/resend) | Resend is the email API for developers. | `npm i resend` |
 
 ---
 
