@@ -49,6 +49,7 @@
 | [lucide-react](https://lucide.dev/) | ![npm](https://img.shields.io/npm/v/lucide-react) | Beautiful icon set | `npm i lucide-react` |
 | [clsx](https://github.com/lukeed/clsx) | ![npm](https://img.shields.io/npm/v/clsx) | Conditional className helper | `npm i clsx` |
 | [class-variance-authority](https://cva.style/) | ![npm](https://img.shields.io/npm/v/class-variance-authority) | Component variant management | `npm i class-variance-authority` |
+| [tiptap/react](https://tiptap.dev/docs/editor/getting-started/install) | ![npm](https://img.shields.io/npm/v/@tiptap/react) | Build a rich-text editor that fits your product with exactly the features you need. | `npm install @tiptap/react @tiptap/pm @tiptap/starter-kit` |
 
 ---
 
