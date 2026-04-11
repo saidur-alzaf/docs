@@ -1,3 +1,4 @@
+```
 "use client";
 import { ProductRatingStar } from "@/components/product/product-rating-star";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -262,3 +263,5 @@ const ProductReviewComponent = ({
 };
 
 export default ProductReviewComponent;
+
+```
