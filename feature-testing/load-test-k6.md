@@ -1,5 +1,3 @@
-
-
 ```
 import http from "k6/http";
 import { sleep, check } from "k6";
@@ -50,6 +48,5 @@ export default function () {
 // k6 run kinlebd-load-test.js
 // k6 run --out csv=results.csv kinlebd-load-test.js
 // k6 run --out csv=results.csv kinlebd-load-test.js
-
 
 ```
